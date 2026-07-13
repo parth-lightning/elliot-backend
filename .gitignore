@@ -1,25 +1,47 @@
+# ----------------------------
 # Virtual Environment
+# ----------------------------
 venv/
+backend/venv/
+
+# ----------------------------
+# Environment Variables
+# ----------------------------
 .env
+backend/.env
 
-# Python
+# ----------------------------
+# Python Cache
+# ----------------------------
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
+# ----------------------------
 # VS Code
+# ----------------------------
 .vscode/
 
-# macOS
+# ----------------------------
+# Operating System Files
+# ----------------------------
 .DS_Store
+Thumbs.db
 
-# Reports
-reports/*.pdf
-
-# Uploads
+# ----------------------------
+# Runtime Uploads
+# ----------------------------
 uploads/*
 !uploads/.gitkeep
 
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ----------------------------
+# Reports
+# ----------------------------
+reports/*.pdf
+
+# ----------------------------
 # Logs
+# ----------------------------
 *.log
