@@ -14,3 +14,4 @@ class ReviewResponse(BaseModel):
     overall_score: int
     total_issues: int
     issues: List[UIIssue]
+    is_demo: bool = False
